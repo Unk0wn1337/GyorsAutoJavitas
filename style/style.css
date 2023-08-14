@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 section {
@@ -22,7 +23,7 @@ h1{
 p {
     font-size: 35px;
     color: #0ef;
-    font-weight: 600px;
+    
 }
 
 section .animate {
@@ -77,4 +78,10 @@ section.show-animate .animate {
 }
 .sec-4 p {
     color: #ff0;
+}
+
+#phoneIcon {
+    width: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
 }
