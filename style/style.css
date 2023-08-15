@@ -81,7 +81,16 @@ section.show-animate .animate {
 }
 
 #phoneIcon {
-    width: 5%;
+    width: 7%;
     display: grid;
     grid-template-columns: 1fr;
+    transition: transform 0.2;
+}
+#phoneIcon.hovered {
+    transform: scale(1.2);
+}
+#screwdriverIcon{
+    width: 15%;
+    display: grid;
+    grid-template-columns: 1fr;   
 }

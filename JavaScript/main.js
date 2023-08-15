@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
       let sections = $('section');
-      
+      CallIcon();
       $(window).scroll(function() {
         sections.each(function() {
           let top = $(window).scrollTop();
@@ -16,10 +16,16 @@ $(document).ready(function() {
       });
     });
 
-//  function iconAnimations(){
-//     let icon = $(".iconPhone");
-//     icon.on("mouseenter", function() {
-//         $(this).
-//     })
-
-//  }   
+function CallIcon() {
+  let phoneIcon = $("#phoneIcon");
+  $(phoneIcon).on("click", function() {
+    window.location.href = "tel:+36303335393";
+  });
+  $(phoneIcon).on("mouseenter", function () {
+    $(this).addClass("hovered");
+  });  
+  $(phoneIcon).on("mouseleave", function () {
+    $(this).removeClass("hovered");
+  });  
+}   
+    
