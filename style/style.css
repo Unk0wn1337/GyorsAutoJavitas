@@ -23,6 +23,11 @@ section {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+.modal-icon {
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 20px;
+}
 
 .modal-content {
     position: absolute;
@@ -31,6 +36,8 @@ section {
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 20px;
+    background: #ff0;
+    border: black solid 4px;
 }
 
 .close-button {
@@ -53,6 +60,7 @@ section {
     padding: 6px; /* Nagyobb térköz a tartalom és a keret között */
     cursor: pointer;
     margin-bottom: 10px;
+    margin-top: 15px;
 }
     
 h1{
@@ -126,11 +134,40 @@ section.show-animate .animate {
     width: 7%;
     display: grid;
     grid-template-columns: 1fr;
-    transition: transform 0.2;
+    transition: transform 0.2s;
+    cursor: pointer;
 }
 #phoneIcon.hovered {
     transform: scale(1.2);
 }
+#klima.hovered {
+    transform: scale(1.2);
+}
+#idoszakos.hovered {
+    transform: scale(1.2);
+}
+#generic.hovered {
+    transform: scale(1.2);
+}
+#kopo.hovered {
+    transform: scale(1.2);
+}
+#autoVillamossag.hovered {
+    transform: scale(1.2);
+}
+#karosszeria.hovered {
+    transform: scale(1.2);
+}
+#automentes.hovered {
+    transform: scale(1.2);
+}
+#altJav {
+    border-bottom: black 4px solid;
+}
+#nemAltJav {
+    border-bottom: black 4px solid;
+}
+
 #screwdriverIcon{
     width: 15%;
     display: grid;
