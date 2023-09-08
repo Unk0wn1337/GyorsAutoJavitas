@@ -70,6 +70,7 @@ section.show-animate .animate {
 .label {
     text-align: center;
     font-size: 20px;
+    
 }
 
 
@@ -100,8 +101,10 @@ section.show-animate .animate {
 
 .accordion{
     max-width: 800px;
-
+    
 }
+
+
 .accordion .contentBx{
     position: relative;
     margin: 10px 20px;
