@@ -20,11 +20,6 @@ h1{
     font-size: 90px;
     color: #fff;
 }
-h2 {
-    font-size: 30px;
-
-}
-
 .sec-1 p {
     font-size: 35px;
     color: #0ef;
@@ -151,4 +146,11 @@ section.show-animate .animate {
 
 #altJav{
     border-bottom: solid 8px black;
+}
+#TeljUgy {
+    border-bottom: solid 8px black;   
+}
+h2 {
+    font-size: 30px;
+
 }
