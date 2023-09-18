@@ -20,6 +20,9 @@ $(document).ready(function() {
 
 function CallIcon() {
   let phoneIcon = $("#phoneIcon");
+  let phoneIconTwo = $("#phoneIconTwo");
+  
+  
   $(phoneIcon).on("click", function() {
     window.location.href = "tel:+36303335393";
   });
@@ -29,7 +32,22 @@ function CallIcon() {
   $(phoneIcon).on("mouseleave", function () {
     $(this).removeClass("hovered");
   });  
-} 
+
+
+  $(phoneIconTwo).on("click",function() {
+    window.location.href = "tel:+36303335393";
+  });
+
+  $(phoneIconTwo).on("mouseenter", function () {
+    $(this).addClass("hovered");
+
+  });
+  $(phoneIconTwo).on("mouseleave", function () {
+    $(this).removeClass("hovered");
+  });
+
+}
+
 
 function accordionWindow(){
   let accordion = $(".contentBx");
