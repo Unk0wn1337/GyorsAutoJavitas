@@ -4,6 +4,7 @@ $(document).ready(function() {
       let sections = $('section');
       CallIcon();
       accordionWindow();
+      imgSlide();
       $(window).scroll(function() {
         sections.each(function() {
           let top = $(window).scrollTop();
@@ -56,7 +57,42 @@ function accordionWindow(){
     $(accordion[i]).on("click", function() {
       this.classList.toggle('active');
     })
-    
   }
+}
+
+function imgSlide(){
+  $(document).ready(function () {
+    let slides = $('.slider-items').children();
+    let nextSlide = $(".right-slide");
+    let prevSlide = $(".left-slide");
+    let totalSlides = slides.length;
+    let index = 0;
+
+    nextSlide.click(function () {
+        next("next");
+    });
+
+    prevSlide.click(function () {
+        next("prev");
+    });
+
+    function next(direction) {
+        if (direction == "next") {
+            index++;
+            if (index == totalSlides) {
+                index = 0;
+            }
+        } else {
+            if (index == 0) {
+                index = totalSlides - 1;
+            } else {
+                index--;
+            }
+        }
+
+        slides.removeClass("active");
+        slides.eq(index).addClass("active");
+    }
+});
 }
     
