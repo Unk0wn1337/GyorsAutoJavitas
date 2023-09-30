@@ -29,6 +29,8 @@ h1{
     
 }
 
+
+
 section .animate {
     opacity: 0;
     filter: blur(5px);
@@ -97,7 +99,7 @@ section.show-animate .animate {
     transform: scale(1.2);
 }
 #screwdriverIcon{
-    width: 15%;
+    width: 20%;
     display: grid;
     grid-template-columns: 1fr;   
 }
@@ -338,6 +340,7 @@ font-size: 30px;
         grid-template-columns: 1fr;
         /* margin-left: 10%;
         margin-right: 10%; */
+        padding-right: 180px;
         
     }
    
@@ -348,7 +351,7 @@ font-size: 30px;
         margin-right: 30px; 
     }
     #phoneIconTwo {
-        margin-left: 260px;
+        margin-left: 290px;
         width: 25%;
         padding-top: 10px;
     }
@@ -370,6 +373,7 @@ font-size: 30px;
     #phoneIcon {
         width: 30%;
         padding-right: 5px;
+        padding-top: 7.5px;
     }
     #screwdriverIcon {
         width: 50%;
@@ -408,7 +412,7 @@ font-size: 30px;
     }
     #nyiv {
         padding-top: 0px;
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         padding-top: 0;
         margin-left: 5%;
@@ -437,4 +441,177 @@ font-size: 30px;
         padding-top: 10px;
     }
 }   
+
+
+
+@media only screen and (max-width: 384px) {
+    .sec-1 h1{
+        font-size: 45px;
+    }
+    .sec-1 p{
+        font-size: 30px;
+        
+    }
+    #telefonSzamH2{
+        display: none;
+    }
+    #phoneIcon {
+        width: 30%;
+        padding-right: 5px;
+        padding-top: 7.5px;
+    }
+    #screwdriverIcon {
+        width: 50%;
+    }
+    
+    
+    #altJav {
+        font-size: 50px;
+        border: solid black 0px;
+        padding-bottom: 100px;
+        margin: 0px;
+        text-decoration: underline white;
+    }
+    #TeljUgy {
+        font-size: 50px;
+        border: solid black 0px;
+        padding-bottom: 100px;
+        margin: 0px;
+        text-decoration: underline white;
+        text-align: center;
+    }
+    #accordionMainTwo {
+        margin-bottom: 100px;
+    }
+    #elerNyiv {
+        font-size: 30px;
+        border: none;
+        padding-bottom: 50px;
+        margin: 0px;
+        text-decoration: underline white;
+        text-align: center;
+    }
+    #elerNyiv  .sec-3.show-animate{
+       padding: 0px 0px 0px 0px;
+       margin: 0px 0px 0px 0px;
+    }
+    #nyiv {
+        padding-top: 0px;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #cim {
+        padding-top: 0px;
+    }
+    #googlePictureGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* margin-left: 10%;
+        margin-right: 10%; */
+        padding-left: 175px;
+        
+    }
+   
+    #googleMap {
+        display: grid;
+        padding: 0 auto;
+        margin-left: 30px; 
+        margin-right: 30px; 
+    
+    }
+    #phoneIconTwo {
+        margin-left: 130px;
+        width: 25%;
+        padding-top: 10px;
+    }
+
+}
+@media only screen and (max-width: 428px) {
+    .sec-1 h1{
+        font-size: 45px;
+    }
+    .sec-1 p{
+        font-size: 30px;
+        
+    }
+    #telefonSzamH2{
+        display: none;
+    }
+    #phoneIcon {
+        width: 30%;
+        padding-right: 5px;
+        padding-top: 7.5px;
+    }
+    #screwdriverIcon {
+        width: 50%;
+    }
+    
+    
+    #altJav {
+        font-size: 50px;
+        border: solid black 0px;
+        padding-bottom: 100px;
+        margin: 0px;
+        text-decoration: underline white;
+    }
+    #TeljUgy {
+        font-size: 50px;
+        border: solid black 0px;
+        padding-bottom: 100px;
+        margin: 0px;
+        text-decoration: underline white;
+        text-align: center;
+    }
+    #accordionMainTwo {
+        margin-bottom: 100px;
+    }
+    #elerNyiv {
+        font-size: 30px;
+        border: none;
+        padding-bottom: 50px;
+        margin: 0px;
+        text-decoration: underline white;
+        text-align: center;
+    }
+    #elerNyiv  .sec-3.show-animate{
+       padding: 0px 0px 0px 0px;
+       margin: 0px 0px 0px 0px;
+    }
+    #nyiv {
+        padding-top: 0px;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #cim {
+        padding-top: 0px;
+    }
+    #googlePictureGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* margin-left: 10%;
+        margin-right: 10%; */
+        padding-left: 175px;
+        
+    }
+   
+    #googleMap {
+        display: grid;
+        padding: 0 auto;
+        margin-left: 30px; 
+        margin-right: 30px; 
+    
+    }
+    #phoneIconTwo {
+        margin-left: 130px;
+        width: 25%;
+        padding-top: 30px;
+    }
+
+}
 
