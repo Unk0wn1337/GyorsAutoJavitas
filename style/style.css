@@ -183,6 +183,7 @@ h2 {
 #googlePictureGrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-right: 2500px;
 }
 
 #phoneIconTwo {
@@ -282,9 +283,7 @@ font-size: 30px;
         font-size: 30px;
         
     }
-    #telefonSzamH2{
-        display: display;
-    }
+    
     #phoneIcon {
         width: 15%;
         padding-right: 5px;
@@ -346,7 +345,7 @@ font-size: 30px;
    
     #googleMap {
         display: grid;
-        padding: 0 auto;
+        padding:  auto;
         margin-left: 200px; 
         margin-right: 30px; 
     }
@@ -431,7 +430,7 @@ font-size: 30px;
    
     #googleMap {
         display: grid;
-        padding: 0 auto;
+        padding:  auto;
         margin-left: 30px; 
         margin-right: 30px; 
     }
@@ -517,7 +516,7 @@ font-size: 30px;
    
     #googleMap {
         display: grid;
-        padding: 0 auto;
+        padding:  auto;
         margin-left: 30px; 
         margin-right: 30px; 
     
@@ -602,7 +601,7 @@ font-size: 30px;
    
     #googleMap {
         display: grid;
-        padding: 0 auto;
+        padding:  auto;
         margin-left: 30px; 
         margin-right: 30px; 
     
