@@ -13,7 +13,7 @@ section {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #550000;
+    background-color: #66ff66;
     overflow-x: hidden;
     
     
@@ -25,7 +25,7 @@ h1{
 }
 .sec-1 p {
     font-size: 35px;
-    color: #0ef;
+    color: #fff;
     
 }
 
@@ -366,9 +366,7 @@ font-size: 30px;
         font-size: 30px;
         
     }
-    #telefonSzamH2{
-        display: none;
-    }
+   
     #phoneIcon {
         width: 30%;
         padding-right: 5px;
@@ -451,9 +449,7 @@ font-size: 30px;
         font-size: 30px;
         
     }
-    #telefonSzamH2{
-        display: none;
-    }
+   
     #phoneIcon {
         width: 30%;
         padding-right: 5px;
@@ -536,9 +532,7 @@ font-size: 30px;
         font-size: 30px;
         
     }
-    #telefonSzamH2{
-        display: none;
-    }
+   
     #phoneIcon {
         width: 30%;
         padding-right: 5px;
